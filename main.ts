@@ -3,8 +3,6 @@ input.onButtonPressed(Button.A, function () {
     music.play(music.builtinPlayableSoundEffect(soundExpression.happy), music.PlaybackMode.InBackground)
     basic.showIcon(IconNames.Happy)
     basic.clearScreen()
-    basic.showString("students++")
-    basic.clearScreen()
     basic.showString("" + (asking_students))
     basic.clearScreen()
 })
@@ -27,8 +25,6 @@ input.onButtonPressed(Button.B, function () {
         . . . . .
         . . # . .
         `)
-    basic.clearScreen()
-    basic.showString("questions++")
     basic.clearScreen()
     basic.showString("" + (questions))
     basic.clearScreen()
